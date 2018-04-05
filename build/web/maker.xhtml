@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <head>
+        <title>Welcome!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <div>
+            
+            输入首先用到了验证器，不接受负数<br/>
+            输入还用到了转换器，将String转换成Long<br/>
+            提交按钮用到了监听器，提交的时候会计算组合数<br/>
+            验证器和监听器的实现都写在了backing bean中<br/>
+            输入数据和结果的呈现都使用了EL表达式<br/>
+            跳转到本页则用到了导航，导航信息写在了faces-config.xml中<br/>
+        </div>
+    </body>
+</html>
